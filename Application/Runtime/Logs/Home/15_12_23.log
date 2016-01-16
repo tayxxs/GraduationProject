@@ -1,0 +1,17 @@
+[ 2015-12-23T19:59:45+08:00 ] ::1 /www/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.022660s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014560s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.180008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.180105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.028784s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.028866s ]
+

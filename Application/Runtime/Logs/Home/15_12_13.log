@@ -1,0 +1,275 @@
+[ 2015-12-13T13:23:15+08:00 ] ::1 /www/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000138s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006458s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000399s ]
+
+[ 2015-12-13T13:23:15+08:00 ] ::1 /www/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008634s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014462s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.136633s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.136736s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006213s ]
+
+[ 2015-12-13T13:23:19+08:00 ] ::1 /www/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\50c9f5d2ef37c2cf131d5cf1381d3a4b.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041921s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000386s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.022447s ]
+INFO: [ app_end ] --END-- [ RunTime:0.022507s ]
+
+[ 2015-12-13T13:23:30+08:00 ] ::1 /www/index.php/Home/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.0296s ]
+NOTIC: [8] Undefined index: validate E:\Program Files\WAMP\Apache24\htdocs\www\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\Program Files\WAMP\Apache24\htdocs\www\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: SELECT `userid`,`username`,`password`,`lastdate`,`lastip` FROM `think_users` WHERE `username` = 'root' LIMIT 1   [ RunTime:0.0024s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.0045s ]
+SQL: UPDATE `think_users` SET `loginnum`=loginnum+1 WHERE `username` = 'root' AND `userid` = 5 [ RunTime:0.0021s ]
+SQL: UPDATE `think_users` SET `username`='root',`password`='25f9e794323b453885f5181f1b624d0b',`lastdate`='1449984210',`lastip`='0.0.0.0' WHERE `username` = 'root' AND `userid` = 5 [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006553s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2015-12-13T13:23:32+08:00 ] ::1 /www/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.0098s ]
+SQL: SELECT `loginnum` FROM `think_users` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000244s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000296s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000979s ]
+
+[ 2015-12-13T13:24:08+08:00 ] ::1 /www/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000548s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.0083s ]
+SQL: SELECT `loginnum` FROM `think_users` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000228s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019098s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000852s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000935s ]
+
+[ 2015-12-13T13:25:07+08:00 ] ::1 /www/index.php/Home/widgets.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+ERR: 无法加载控制器:Widgets
+
+[ 2015-12-13T13:25:11+08:00 ] ::1 /www/index.php/Home/Index/top-nav.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001312s ]
+ERR: 非法操作:top-nav
+
+[ 2015-12-13T13:58:30+08:00 ] ::1 /www/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001084s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.0155s ]
+SQL: SELECT `loginnum` FROM `think_users` LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000230s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000717s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001410s ]
+
+[ 2015-12-13T13:59:30+08:00 ] ::1 /www/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000713s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.0099s ]
+SQL: SELECT `loginnum` FROM `think_users` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000392s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000529s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024348s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024412s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000590s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000998s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001088s ]
+
+[ 2015-12-13T21:27:49+08:00 ] ::1 /www/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008238s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.0122s ]
+SQL: SELECT `loginnum` FROM `think_users` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000312s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145034s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.145092s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.010181s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.010239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.023953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024052s ]
+
+[ 2015-12-13T21:51:37+08:00 ] ::1 /www/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.0090s ]
+SQL: SELECT `loginnum` FROM `think_users` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000249s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000304s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024579s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2015-12-13T21:52:03+08:00 ] ::1 /www/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000780s ]
+SQL: SHOW COLUMNS FROM `think_users` [ RunTime:0.0141s ]
+SQL: SELECT `loginnum` FROM `think_users` LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000246s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000299s ]
+NOTIC: [8192] mysql_get_server_info(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+NOTIC: [2] mysql_get_server_info(): Access denied for user ''@'localhost' (using password: NO) E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+NOTIC: [2] mysql_get_server_info(): A link to the server could not be established E:\Program Files\WAMP\Apache24\htdocs\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 364 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027645s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001377s ]
+
